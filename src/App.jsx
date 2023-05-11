@@ -72,6 +72,20 @@ const App = () => {
     }
   ]
 
+  const myCrazyCollection = [
+    {
+      name: 'Rubber Duck',
+      image:
+        'https://images.unsplash.com/photo-1603736087997-5daec6092347?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+      attributes: ['squeaky', 'yellow', 'bathtub buddy'],
+    },
+    {
+      name: 'Unicorn Slippers',
+      image: 'https://m.media-amazon.com/images/I/51poxiFFRPL._AC_UY575_.jpg',
+      attributes: ['fluffy', 'magical', 'not fit for public places'],
+    },
+  ]
+
 
   return (
     <Routes>
