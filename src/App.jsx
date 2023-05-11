@@ -3,6 +3,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SillyThings'
 import Landing from './pages/Landing/Landing'
+import CatLadyThings from './pages/CatLadyThings/CatLadyThings'
 
 const App = () => {
   const bensThings = [
@@ -61,6 +62,16 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
+  const eleahsThings = [
+    {
+      laptop: "work laptop",
+      laptopTwo: "broken sound",
+      laptopThree: "half broken screen due to nail polish remover",
+      secondaryScreen: "crack due to cats",
+      attributes: ["smart", "tired", "athletic", "catlover"]
+    }
+  ]
+
 
   return (
     <Routes>
@@ -77,6 +88,11 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+
+      <Route
+        path="/the-cat-lady-things"
+        element={<CatLadyThings things={eleahsThings} />}
       />
     </Routes>
   )
