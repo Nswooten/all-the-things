@@ -49,7 +49,7 @@ const App = () => {
       attributes: ['fluffy', 'happy', 'sleepy', 'dumb'],
     },
     {
-      name: 'Poptart®',
+      name: 'Smores Poptart®',
       image: 'https://i.imgur.com/q9zgcaP.jpg',
       attributes: ['pastry?', 'food?', 'edible?', 'Horrible when toasted!'],
     },
